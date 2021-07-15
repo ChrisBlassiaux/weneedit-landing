@@ -1,4 +1,4 @@
-$color-font: "Roboto", sans-serif;
+$font: 'Montserrat Alternates', sans-serif;
 
 $weight-bold: 800;
 $weight-semi-bold: 500;
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: $color-font;
+  font-family: $font;
   line-height: 1.5;
   color: $color-light;
 }
