@@ -1,0 +1,89 @@
+$color-font: "Roboto", sans-serif;
+
+$weight-bold: 800;
+$weight-semi-bold: 500;
+$weight-light: 300;
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: $color-font;
+  line-height: 1.5;
+  color: $color-light;
+}
+
+// links
+a {
+  color: inherit;
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+// alignments
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+//title
+.title {
+  margin: 5px 0 15px 0;
+
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: $weight-bold;
+}
+
+.subtitle {
+  margin: 5px 0 10px 0;
+
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: $weight-semi-bold;
+}
+
+// text-colors
+.text-light {
+  color: $color-light;
+}
+
+.text-primary {
+  color: $color-primary !important;
+}
+
+.text-warning {
+  color: $color-warning !important;
+}
+
+.text-danger {
+  color: #FF7070;
+}
+
+.text-secondary {
+  color: #4FDAC6;
+}
+
+// weights
+.bold {
+  font-weight: $weight-semi-bold;
+}
+
+// links
+.link {
+  text-decoration: underline;
+  color: $color-secondary;
+  font-style: italic;
+}
+
+// infos
+.info {
+  font-weight: $color-dark;
+  font-style: italic;
+  font-size: 0.9rem;
+}

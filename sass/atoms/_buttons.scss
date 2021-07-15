@@ -1,0 +1,42 @@
+// btn
+button {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  margin: 5px 0;
+  padding: 10px 0;
+  width: 100%;
+
+  text-transform: uppercase;
+  text-align: center;
+  color: $color-white;
+
+  background-color: $color-dark;
+
+  border: solid 2px $color-white;
+
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+
+// btn hover
+.btn:hover {
+  background-color: $color-white;
+  color: $color-dark;
+}
+
+// responsive
+@media only screen and (min-width: 540px) {
+  //btn
+  .btn {
+    width: auto;
+    padding: 10px 20px;
+    margin: 5px;
+  }
+}

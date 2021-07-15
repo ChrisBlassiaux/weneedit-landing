@@ -1,0 +1,43 @@
+// colors
+$color-primary: #FFFFFF;
+$color-secondary: #5E95B7;
+$color-success: #68AB6F;
+$color-danger: #C75757;
+$color-warning: #C08B59;
+$color-info: #5E95B7;
+$color-light: #efefef;
+$color-dark: #000;
+$color-white: #fff;
+
+// bases
+html {
+  scroll-behavior: smooth;
+  background-color: $color-dark;
+}
+
+// separations
+hr {
+  border: 0.5px solid #fff;
+}
+
+a {
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+// background
+
+.bg-dark {
+  background-color: $color-dark !important;
+}
+
+.bg-secondary {
+  background-color: $color-secondary !important;
+}
+
+.bg-primary {
+  background-color: $color-primary !important;
+}
