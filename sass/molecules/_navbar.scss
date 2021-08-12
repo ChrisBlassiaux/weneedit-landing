@@ -1,0 +1,44 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+
+  text-align: center;
+
+  background-color: $color-light;
+
+  z-index: 1;
+  transition: .3s;
+}
+
+nav .btn {
+  display: none;
+}
+
+nav .img {
+  height: 80px;
+  transition: .4s;
+}
+
+nav .img_2 {
+  display: none;
+}
+
+nav .container {
+  padding: 0;
+}
+
+@media only screen and (min-width: 540px) {
+  nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav .img {
+    height: 135px;
+  }
+}
+

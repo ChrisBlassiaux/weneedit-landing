@@ -1,0 +1,96 @@
+// alerts
+.contain-alert {
+  margin-top: 25px;
+  padding: 0 25px;
+}
+
+@media only screen and (min-width: 960px) {
+  .contain-alert {
+    margin-top: 41px;
+    margin-left: 106px;
+    padding: 0 41px;
+  }
+}
+
+.alert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 41px 0 0 0;
+  padding: 5px 20px;
+
+  color: $color-dark;
+
+  font-weight: $weight-semi-bold;
+
+  border-width: 2px;
+  border-style: solid;
+}
+
+.alert-danger {
+  background-color: $color-danger;
+}
+
+.alert-warning {
+  background-color: $color-warning;
+}
+
+.alert-info {
+  background-color: $color-info;
+}
+
+.alert-success {
+  background-color: $color-success;
+}
+
+.alert .icon {
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.alert .icon:hover {
+  color: $color-light;
+}
+
+// badges
+.badge {
+  width: 100%;
+  display: inline-block;
+  margin: 10px 0;
+  padding: 2px 18px;
+
+  text-align: center;
+  color: $color-white;
+
+  border: solid 2px $color-white;
+}
+
+.badge-secondary {
+  border-color: $color-secondary;
+  color: $color-secondary;
+}
+
+.badge-warning {
+  border-color: $color-warning;
+  color: $color-warning;
+}
+
+.badge-danger {
+  border-color: $color-danger;
+  color: $color-danger;
+}
+
+@media only screen and (min-width: 540px) {
+  .badge {
+    width: auto;
+    margin: 2px 0;
+  }
+}

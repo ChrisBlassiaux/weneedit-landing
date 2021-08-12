@@ -1,0 +1,113 @@
+$font: 'Montserrat Alternates', sans-serif;
+
+$weight-bold: 800;
+$weight-semi-bold: 500;
+$weight-light: 300;
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: $font;
+  line-height: 1.5;
+  color: $color-dark;
+}
+
+// links
+a {
+  color: inherit;
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+// alignments
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.bold {
+  font-weight: $weight-bold;
+}
+
+.semi-bold {
+  font-weight: $weight-semi-bold;
+}
+
+//title
+.title {
+  margin-bottom: 30px;
+  font-size: 1.4rem;
+  font-weight: $weight-bold;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: $weight-semi-bold;
+}
+
+.gradient-frame {
+  padding: 3px;
+  text-align: center;
+  background: linear-gradient(to right, $color-gradient-1, $color-gradient-4);
+}
+
+.gradient-frame .subtitle {
+  padding: 0 15px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: $color-dark;
+
+  background-color: $color-light;
+}
+
+// style
+.underline {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 540px) {
+  html {
+    font-size: 18px;
+  }
+
+  //title
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .gradient-frame .subtitle {
+    height: 50px;
+  }
+}
+
+// text-colors
+.text-light {
+  color: $color-light;
+}
+
+.text-gradient-1 {
+  color: $color-gradient-1;
+}
+
+.text-gradient-2 {
+  color: $color-gradient-2;
+}
+
+.text-gradient-3 {
+  color: $color-gradient-3;
+}

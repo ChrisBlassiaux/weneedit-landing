@@ -1,0 +1,24 @@
+<svg width="187" height="92" viewBox="0 0 187 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="39" y="1" width="125" height="78" rx="2" stroke="white" stroke-width="2"/>
+<rect x="43" y="5" width="117" height="64" rx="1" stroke="white" stroke-width="2"/>
+<mask id="path-3-inside-1" fill="white">
+<path d="M108 79H110L113.296 90.5569L111.365 91.0745L108 79Z"/>
+</mask>
+<path d="M108 79H110L113.296 90.5569L111.365 91.0745L108 79Z" fill="#C4C4C4"/>
+<path d="M108 79V77L105.366 77L106.073 79.5369L108 79ZM110 79L111.923 78.4514L111.509 77L110 77L110 79ZM113.296 90.5569L113.814 92.4887L115.777 91.9627L115.22 90.0083L113.296 90.5569ZM111.365 91.0745L109.438 91.6114L109.97 93.5189L111.882 93.0064L111.365 91.0745ZM108 81L110 81L110 77L108 77V81ZM108.077 79.5486L111.373 91.1055L115.22 90.0083L111.923 78.4514L108.077 79.5486ZM112.779 88.625L110.847 89.1427L111.882 93.0064L113.814 92.4887L112.779 88.625ZM113.291 90.5377L109.927 78.4631L106.073 79.5369L109.438 91.6114L113.291 90.5377Z" fill="white" mask="url(#path-3-inside-1)"/>
+<rect x="82.5" y="90.5371" width="0.999999" height="38" transform="rotate(-90 82.5 90.5371)" fill="#C4C4C4" stroke="white" stroke-width="0.999999"/>
+<mask id="path-6-inside-2" fill="white">
+<path d="M92.9999 78.9998L94.9999 79L91.9318 91.0747L90 90.5571L92.9999 78.9998Z"/>
+</mask>
+<path d="M92.9999 78.9998L94.9999 79L91.9318 91.0747L90 90.5571L92.9999 78.9998Z" fill="#C4C4C4"/>
+<path d="M92.9999 78.9998L93.0001 76.9998L91.4528 76.9996L91.064 78.4973L92.9999 78.9998ZM94.9999 79L96.9383 79.4925L97.5715 77.0003L95.0001 77L94.9999 79ZM91.9318 91.0747L91.4142 93.0066L93.3713 93.531L93.8702 91.5672L91.9318 91.0747ZM90 90.5571L88.0641 90.0546L87.5656 91.9753L89.4823 92.4889L90 90.5571ZM92.9996 80.9998L94.9996 81L95.0001 77L93.0001 76.9998L92.9996 80.9998ZM93.0615 78.5075L89.9934 90.5822L93.8702 91.5672L96.9383 79.4925L93.0615 78.5075ZM92.4495 89.1429L90.5176 88.6252L89.4823 92.4889L91.4142 93.0066L92.4495 89.1429ZM91.9358 91.0596L94.9357 79.5023L91.064 78.4973L88.0641 90.0546L91.9358 91.0596Z" fill="white" mask="url(#path-6-inside-2)"/>
+<rect x="169" y="56" width="17" height="34" rx="1" stroke="white" stroke-width="2"/>
+<rect x="172" y="61" width="11" height="24" stroke="white" stroke-width="2"/>
+<circle cx="177.5" cy="87.5" r="1.5" fill="white"/>
+<rect x="174.25" y="58.25" width="6.5" height="0.5" fill="white" stroke="white" stroke-width="0.5"/>
+<rect x="1" y="46" width="33" height="44" rx="2" stroke="white" stroke-width="2"/>
+<rect x="0.5" y="51.5" width="34" height="1" fill="#C4C4C4" stroke="white"/>
+<rect x="0.5" y="84.5" width="34" height="1" fill="#C4C4C4" stroke="white"/>
+<circle cx="18" cy="88" r="1" fill="white"/>
+<rect x="15.5" y="48.5" width="5" height="1" fill="#C4C4C4" stroke="white"/>
+</svg>

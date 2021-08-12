@@ -1,0 +1,48 @@
+// btn
+.btn {
+  display: inline-block;
+  padding: 10px 0;
+  width: 100%;
+
+  text-align: center;
+  font-weight: $weight-semi-bold;
+
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: $color-white;
+
+  background-color: $color-gradient-1;
+  border: solid 2px $color-gradient-1;
+}
+
+.btn-light {
+  background: $color-light;
+  border: solid 2px $color-light;
+}
+
+.btn-light span {
+  background: linear-gradient(0.25turn, #53AD8B, #718F8E, #8E7190, #AC5393);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+// btn hover
+.btn-primary:hover {
+  background-color: $color-light;
+  color: $color-gradient-1;
+}
+
+// responsive
+@media only screen and (min-width: 540px) {
+  //btn
+  .btn {
+    width: auto;
+    padding: 8px 15px;
+  }
+}

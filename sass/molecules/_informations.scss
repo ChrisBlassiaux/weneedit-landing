@@ -1,0 +1,226 @@
+// information 1
+.informations-1 div {
+  margin: 40px 0;
+}
+
+.informations-1 .number {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.informations-1 .number-1 {
+  background-color: $color-gradient-1;
+  transform: rotate(10deg);
+}
+
+.informations-1 .number-2 {
+  background-color: $color-gradient-2;
+  transform: rotate(-15deg);
+}
+
+.informations-1 .number-3 {
+  background-color: $color-gradient-3;
+  transform: rotate(25deg);
+}
+
+// information 2
+.informations-2 {
+  padding: 100px 0;
+}
+
+.informations-2 .container {
+  padding: 40px 20px;
+  position: relative;
+}
+
+.informations-2 .gradient-frame {
+  position: absolute;
+  top: -65px;
+  left: 20px;
+  right: 20px;
+}
+
+// information 3
+.informations-3 {
+}
+
+.informations-3 .gradient-frame {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.informations-3 .what-part {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.informations-3 .what-part p {
+  margin: 20px 0;
+}
+
+.informations-3 .what-part p:nth-child(1) {
+  color: $color-gradient-1;
+}
+
+.informations-3 .what-part p:nth-child(3) {
+  color: $color-gradient-3;
+  position: relative;
+}
+
+.informations-3 .what-part p:nth-child(5) {
+  color: $color-gradient-4;
+  position: relative;
+}
+
+.informations-3 .what-part p:nth-child(3):after {
+  content: 'En cours';
+  color: $color-light;
+  background-color: $color-gradient-3;
+  display: block;
+  margin: 15px auto 0 auto;
+  width: 90px;
+}
+
+.informations-3 .what-part p:nth-child(5):after {
+  content: 'En cours';
+  color: $color-light;
+  background-color: $color-gradient-4;
+  display: block;
+  margin: 15px auto 0 auto;
+  width: 90px;
+}
+
+.contain-arrows {
+  display: none;
+}
+
+// informations-4
+.informations-4 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.informations-4 img {
+  width: 200px;
+}
+
+.informations-4 .card:nth-child(1) {
+  transform: rotate(20deg);
+}
+
+.informations-4 .card:nth-child(1) .text p {
+  transform: rotate(-20deg);
+}
+
+.informations-4 .card:nth-child(2) {
+  transform: rotate(-20deg);
+}
+
+.informations-4 .card:nth-child(2) .text p {
+  transform: rotate(20deg);
+}
+
+
+.informations-4 .card:nth-child(3) {
+  transform: rotate(40deg);
+}
+
+.informations-4 .card:nth-child(3) .text p {
+  transform: rotate(-40deg);
+}
+
+// informations-5
+.informations-5 {
+  margin-top: 130px;
+  padding: 60px 0;
+  position: relative;
+}
+
+.informations-5 .gradient-frame {
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: -45px;
+}
+
+.informations-5 .big {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 540px) {
+  // information 1
+
+  // information 2
+  .informations-2 .container {
+    padding: 40px 100px;
+  }
+
+  // information 3
+  .informations-3 .what-part {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .informations-3 .what-part p {
+    padding: 0 15px;
+  }
+
+  .informations-3 .what-part p:nth-child(1) {
+    border-right: 4px solid $color-gradient-1;
+  }
+
+  .informations-3 .what-part p:nth-child(3) {
+    border-right: 4px solid $color-gradient-4;
+  }
+
+  .informations-3 .what-part p:nth-child(3):after {
+    right: 20px;
+    bottom: -50px;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .informations-3 .what-part p:nth-child(5):after {
+    right: 20px;
+    bottom: -50px;
+    position: absolute;
+    display: inline-block;
+  }
+
+  .contain-arrows {
+    display: block;
+  }
+
+  .arrows {
+    width: 80%;
+  }
+
+  .informations-3 .what-part img {
+    display: none;
+  }
+
+  // informations-5
+  .informations-5 .gradient-frame {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  // information 2
+  .informations-2 .gradient-frame {
+    left: auto;
+    right: auto;
+    top: -30px;
+  }
+
+  // information 5
+  .informations-5 .gradient-frame {
+    top: -30px;
+  }
+}
