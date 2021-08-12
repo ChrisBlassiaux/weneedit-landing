@@ -11,7 +11,7 @@ html {
 body {
   font-family: $font;
   line-height: 1.5;
-  color: $color-light;
+  color: $color-dark;
 }
 
 // links
@@ -28,24 +28,71 @@ a {
 }
 
 .text-right {
-  text-align: right !important;
+  text-align: right;
+}
+
+.bold {
+  font-weight: $weight-bold;
+}
+
+.semi-bold {
+  font-weight: $weight-semi-bold;
 }
 
 //title
 .title {
-  margin: 5px 0 15px 0;
-
-  text-transform: uppercase;
-  font-size: 1.3rem;
+  margin-bottom: 30px;
+  font-size: 1.4rem;
   font-weight: $weight-bold;
 }
 
 .subtitle {
-  margin: 5px 0 10px 0;
-
-  text-transform: uppercase;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: $weight-semi-bold;
+}
+
+.gradient-frame {
+  padding: 3px;
+  text-align: center;
+  background: linear-gradient(to right, $color-gradient-1, $color-gradient-4);
+}
+
+.gradient-frame .subtitle {
+  padding: 0 15px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: $color-dark;
+
+  background-color: $color-light;
+}
+
+// style
+.underline {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 540px) {
+  html {
+    font-size: 18px;
+  }
+
+  //title
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .gradient-frame .subtitle {
+    height: 50px;
+  }
 }
 
 // text-colors
@@ -53,37 +100,14 @@ a {
   color: $color-light;
 }
 
-.text-primary {
-  color: $color-primary !important;
+.text-gradient-1 {
+  color: $color-gradient-1;
 }
 
-.text-warning {
-  color: $color-warning !important;
+.text-gradient-2 {
+  color: $color-gradient-2;
 }
 
-.text-danger {
-  color: #FF7070;
-}
-
-.text-secondary {
-  color: #4FDAC6;
-}
-
-// weights
-.bold {
-  font-weight: $weight-semi-bold;
-}
-
-// links
-.link {
-  text-decoration: underline;
-  color: $color-secondary;
-  font-style: italic;
-}
-
-// infos
-.info {
-  font-weight: $color-dark;
-  font-style: italic;
-  font-size: 0.9rem;
+.text-gradient-3 {
+  color: $color-gradient-3;
 }

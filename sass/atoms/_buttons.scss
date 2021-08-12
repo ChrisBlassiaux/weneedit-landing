@@ -1,22 +1,11 @@
 // btn
-button {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .btn {
   display: inline-block;
-  margin: 5px 0;
   padding: 10px 0;
   width: 100%;
 
-  text-transform: uppercase;
   text-align: center;
-  color: $color-white;
-
-  background-color: $color-dark;
-
-  border: solid 2px $color-white;
+  font-weight: $weight-semi-bold;
 
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -25,10 +14,28 @@ button {
   cursor: pointer;
 }
 
+.btn-primary {
+  color: $color-white;
+
+  background-color: $color-gradient-1;
+  border: solid 2px $color-gradient-1;
+}
+
+.btn-light {
+  background: $color-light;
+  border: solid 2px $color-light;
+}
+
+.btn-light span {
+  background: linear-gradient(0.25turn, #53AD8B, #718F8E, #8E7190, #AC5393);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 // btn hover
-.btn:hover {
-  background-color: $color-white;
-  color: $color-dark;
+.btn-primary:hover {
+  background-color: $color-light;
+  color: $color-gradient-1;
 }
 
 // responsive
@@ -36,7 +43,6 @@ button {
   //btn
   .btn {
     width: auto;
-    padding: 10px 20px;
-    margin: 5px;
+    padding: 8px 15px;
   }
 }

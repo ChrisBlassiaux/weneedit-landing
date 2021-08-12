@@ -1,25 +1,24 @@
 // colors
-$color-primary: #FFFFFF;
-$color-secondary: #5E95B7;
-$color-success: #68AB6F;
-$color-danger: #C75757;
-$color-warning: #C08B59;
-$color-info: #5E95B7;
-$color-light: #efefef;
-$color-dark: #000;
+$color-gradient-1: #53AD8B;
+$color-gradient-2: #718F8E;
+$color-gradient-3: #8E7190;
+$color-gradient-4: #AC5393;
+$color-light: #FBFBF2;
+$color-dark: #151515;
 $color-white: #fff;
+$gradient: linear-gradient(90deg, rgba(83,173,139,1) 0%, rgba(113,143,142,1) 35%, rgba(142,113,144,1) 65%, rgba(172,83,147,1) 100%) !important;
+$gradient-reverse: linear-gradient(90deg, rgba(172,83,147,1) 0%, rgba(142,113,144,1) 35%, rgba(113,143,142,1) 65%, rgba(83,173,139,1) 100%) !important;
 
 // bases
 html {
   scroll-behavior: smooth;
-  background-color: $color-dark;
 }
 
-// separations
-hr {
-  border: 0.5px solid #fff;
+body {
+  background-color: $color-light;
 }
 
+// links
 a {
   cursor: pointer;
 }
@@ -29,15 +28,30 @@ a {
 }
 
 // background
-
 .bg-dark {
   background-color: $color-dark !important;
 }
 
-.bg-secondary {
-  background-color: $color-secondary !important;
+.bg-light {
+  background-color: $color-light !important;
 }
 
-.bg-primary {
-  background-color: $color-primary !important;
+.bg-gradient {
+  background: $color-gradient-1 !important;
+  background: linear-gradient(90deg, rgba(83,173,139,1) 0%, rgba(113,143,142,1) 35%, rgba(142,113,144,1) 65%, rgba(172,83,147,1) 100%) !important;
+}
+
+.bg-gradient-middle {
+  background: $color-gradient-2 !important;
+  background: linear-gradient(90deg, rgba(113,143,142,1) 0%, rgba(142,113,144,1) 100%) !important;
+}
+
+.bg-gradient-left {
+  background: $color-gradient-3 !important;
+  background: linear-gradient(90deg, rgba(83,173,139,1) 0%, rgba(113,143,142,1) 100%) !important;
+}
+
+.bg-gradient-right {
+  background: $color-gradient-4 !important;
+  background: linear-gradient(90deg, rgba(142,113,144,1) 0%, rgba(172,83,147,1) 100%) !important;
 }
