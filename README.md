@@ -11,7 +11,8 @@ Le CSS est géré en convention SMACSS à l'aide du préprocesseur SASS.
 - Minifier le css à l'aide de SASS `--style compressed`
 - Supprimer le fichier .map
 
-## CHANGELOG
-### 1.0.0
+## LAST CHANGELOG
+### 1.0.1
 
-- Intégration de la landing page à partir de la charte graphique version 1.
+- Correction de l'adaptation du logotype présent dans la navbar
+- Les svg sont en sans-serif sur safari. 
