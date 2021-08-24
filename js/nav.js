@@ -9,16 +9,23 @@ function scrollFunction() {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         logoForWhiteBackground.style.height = '80px';
         logoForBlackBackground.style.height = '80px';
-        logoForWhiteBackground.style.display = 'inline-block'
-        logoForBlackBackground.style.display = 'none'
-        nav.style.backgroundColor = "#151515"
-        navBtn.style.display = 'inline-block'
+        logoForWhiteBackground.style.display = 'inline-block';
+        logoForBlackBackground.style.display = 'none';
+        nav.style.backgroundColor = "#151515";
+        navBtn.style.display = 'inline-block';
+    } else if (window.innerWidth < 540) {
+        logoForWhiteBackground.style.height = '80px';
+        logoForBlackBackground.style.height = '80px';
+        logoForWhiteBackground.style.display = 'none';
+        logoForBlackBackground.style.display = 'inline-block';
+        nav.style.backgroundColor = '#FBFBF2';
+        navBtn.style.display = 'none';
     } else {
         logoForWhiteBackground.style.height = '135px';
         logoForBlackBackground.style.height = '135px';
-        logoForWhiteBackground.style.display = 'none'
-        logoForBlackBackground.style.display = 'inline-block'
-        nav.style.backgroundColor = '#FBFBF2'
-        navBtn.style.display = 'none'
+        logoForWhiteBackground.style.display = 'none';
+        logoForBlackBackground.style.display = 'inline-block';
+        nav.style.backgroundColor = '#FBFBF2';
+        navBtn.style.display = 'none';
     }
 }
